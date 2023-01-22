@@ -3,6 +3,7 @@
     height: 100vh;
     background: url('../images/us.jpg');
     background-size: cover;
+    background-position-x: center;
     position: relative;
 }
 
@@ -16,7 +17,7 @@
 }
 
 .header .blur .title {
-    margin-top: 4.5em;
+    margin-top: 1.5em;
 }
 
 .header .blur .subtitle {
@@ -31,7 +32,7 @@
 
 .header .blur .counter {
     padding: 1em;
-    margin-top: 25%;
+    margin-top: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1em;

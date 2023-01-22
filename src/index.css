@@ -8,9 +8,17 @@
 }
 
 .title {
-  font-family: 'Passions Conflict', cursive;
+  font-family: 'Challista', cursive;
   font-size: 4.5em;
   color: #fff;
   text-align: center;
   position: relative;
+}
+
+@font-face {
+  font-family: 'Challista';
+  src: url('./fonts/Challista.ttf') format('truetype'),
+        url('./fonts/Challista.otf') format('opentype');
+  font-style: normal;
+  font-weight: normal;
 }
