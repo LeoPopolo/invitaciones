@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.title {
+  font-family: 'Passions Conflict', cursive;
+  font-size: 4.5em;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}

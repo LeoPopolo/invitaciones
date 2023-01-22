@@ -1,0 +1,65 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/us.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.header .blur {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: #00000070;
+}
+
+.header .blur .title {
+    margin-top: 4.5em;
+}
+
+.header .blur .subtitle {
+    font-size: 1.2em;
+    border-bottom: 1px solid #fff;
+    margin: 2em auto;
+    width: 40%;
+    padding-bottom: .4em;
+    text-align: center;
+    color: #fff;
+}
+
+.header .blur .counter {
+    padding: 1em;
+    margin-top: 25%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    place-items: center;
+}
+
+.header .blur .counter div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .blur .counter .number {
+    background-color: #aaaaaaaa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 2em;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.header .blur .counter .description {
+    color: #fff;
+    font-size: .8em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+}
