@@ -1,0 +1,58 @@
+.main-step-two > div {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    position: relative;
+    place-items: center;
+}
+
+.main-step-two h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.image-1 {
+    width: 45vw;
+    height: 45vw;
+    background: url('../images/1.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.image-2 {
+    width: 45vw;
+    height: 45vw;
+    background: url('../images/2.jpg');
+    background-size: cover;
+}
+
+.image-3 {
+    width: 45vw;
+    height: 45vw;
+    background: url('../images/3.jpg');
+    background-size: cover;
+}
+
+.image-4 {
+    width: 45vw;
+    height: 45vw;
+    background: url('../images/4.jpg');
+    background-size: cover;
+}
+
+.image-5 {
+    width: 45vw;
+    height: 45vw;
+    background: url('../images/5.jpg');
+    background-size: cover;
+}
+
+.image-6 {
+    width: 45vw;
+    height: 45vw;
+    background: url('../images/6.jpg');
+    background-size: cover;
+}

@@ -1,0 +1,35 @@
+.main-step-one {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-block: 45%;
+    position: relative;
+}
+
+.hojas-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main-step-one div {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-step-one div h2 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.main-step-one div p {
+    text-align: center;
+}
+
+.main-step-one div button {
+    display: flex;
+    margin: 0 auto;
+}
