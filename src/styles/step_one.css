@@ -11,6 +11,16 @@
     position: absolute;
     top: 0;
     right: 0;
+    width: 30%;
+    height: 15%;
+}
+
+.hojas-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 15%;
 }
 
 .main-step-one div {

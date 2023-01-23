@@ -18,7 +18,7 @@ const StepTwo = () => {
         {/* musica */}
         {/* confirmar invitacion */}
 
-        -licuadora
+        {/* -licuadora
         -sillon
         -televisor
         -juego de mesas y sillas
@@ -28,7 +28,7 @@ const StepTwo = () => {
         -cubiertos
         -juego de platos
         -batidora/mixer
-        -plancha
+        -plancha */}
       </div>
     </main>
   )

@@ -1,0 +1,78 @@
+.main-step-three {
+    margin-top: 15%;
+}
+
+.main-step-three-gift {
+    background-color: var(--primary-color);
+    padding: 2em;
+    text-align: center;
+}
+
+.main-step-three-gift p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.main-step-three-gift button {
+    margin-top: 1em;
+}
+
+.main-step-three-gift img {
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+.main-step-three-dresscode {
+    background-color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.main-step-three-dresscode p {
+    font-size: 1.2em;
+    color: var(--primary-color);
+    margin-top: 1em;
+    text-align: center;
+}
+
+.main-step-three-dresscode img {
+    width: 40%;
+    margin-top: 1em;
+}
+
+
+.main-step-three-dresscode p:nth-child(2) {
+    font-weight: bold;
+}
+
+.main-step-three-music {
+    background-color: var(--primary-color);
+    padding: 2em;
+    text-align: center;
+}
+
+.main-step-three-music img {
+    width: 25%;
+}
+
+.main-step-three-music p {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 1em;
+}
+
+.main-step-three-music input {
+    display: flex;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: .5em 1em;
+    outline: none;
+    background-color: transparent;
+    margin: 1em auto;
+    font-size: 1.2em;
+}
+
+.main-step-three-music input::placeholder {
+    color: #ddd;
+}

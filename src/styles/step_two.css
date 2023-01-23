@@ -1,10 +1,22 @@
+.main-step-two {
+    margin-top: 15%;
+}
+
 .main-step-two > div {
-    height: 100vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     gap: 1em;
     position: relative;
     place-items: center;
+    padding: 1em;
+}
+
+.main-step-two > div > div {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .main-step-two h2 {
@@ -17,7 +29,7 @@
 .image-1 {
     width: 45vw;
     height: 45vw;
-    background: url('../images/1.jpg');
+    background: url('../assets/1.jpg');
     background-size: cover;
     background-position-x: center;
 }
@@ -25,34 +37,34 @@
 .image-2 {
     width: 45vw;
     height: 45vw;
-    background: url('../images/2.jpg');
+    background: url('../assets/2.jpg');
     background-size: cover;
 }
 
 .image-3 {
     width: 45vw;
     height: 45vw;
-    background: url('../images/3.jpg');
+    background: url('../assets/3.jpg');
     background-size: cover;
 }
 
 .image-4 {
     width: 45vw;
     height: 45vw;
-    background: url('../images/4.jpg');
+    background: url('../assets/4.jpg');
     background-size: cover;
 }
 
 .image-5 {
     width: 45vw;
     height: 45vw;
-    background: url('../images/5.jpg');
+    background: url('../assets/5.jpg');
     background-size: cover;
 }
 
 .image-6 {
     width: 45vw;
     height: 45vw;
-    background: url('../images/6.jpg');
+    background: url('../assets/6.jpg');
     background-size: cover;
 }
