@@ -1,0 +1,32 @@
+.modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color-transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-background .modal {
+    width: 95%;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 1px #35353535;
+    height: 95vh;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.modal-background .modal h3 {
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--primary-color);
+    margin-bottom: 1em;
+}
+
+.modal-background .modal p {
+    padding-block: 5px;
+    font-size: 1.1em;
+}

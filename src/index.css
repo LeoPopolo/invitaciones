@@ -8,8 +8,9 @@
 }
 
 :root {
-  --primary-color: #9db8a1;
-  --primary-color-darker: #637a67;
+  --primary-color: #839786;
+  --primary-color-transparent: #839786a0;
+  --primary-color-darker: #536155;
 }
 
 .title {

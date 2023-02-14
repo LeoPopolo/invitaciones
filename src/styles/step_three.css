@@ -76,3 +76,28 @@
 .main-step-three-music input::placeholder {
     color: #ddd;
 }
+
+.main-step-three-confirm {
+    padding: 2em;
+    text-align: center;
+}
+
+.main-step-three-confirm {
+    padding: 2em;
+    text-align: center;
+    margin: 1em auto;
+    font-size: 1.2em;
+    color: var(--primary-color);
+}
+
+.main-step-three-confirm button {
+    margin-top: 1em;
+}
+
+.main-step-three-thanks {
+    background-color: var(--primary-color);
+    padding: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+}
