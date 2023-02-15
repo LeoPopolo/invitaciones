@@ -36,12 +36,9 @@ const StepThree = () => {
           <button className='secondary-button'>Enviar</button>
         </div>
         <div className='main-step-three-confirm'>
-          <p>Confirmar invitación</p>
-          <button className='primary-button'>Enviar</button>
-        </div>
-        <div className='main-step-three-thanks'>
           <p>Gracias por acompañarnos en este momento tan especial.</p>
           <p>¡Te esperamos!</p>
+          <button className='primary-button'>Confirmar invitación</button>
         </div>
       </main>
     </>

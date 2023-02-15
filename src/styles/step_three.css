@@ -83,21 +83,33 @@
 }
 
 .main-step-three-confirm {
-    padding: 2em;
-    text-align: center;
-    margin: 1em auto;
-    font-size: 1.2em;
-    color: var(--primary-color);
+    padding: 15% 2em;
+    margin: 0 auto;
+    border: 2px solid var(--primary-color);
+    position: relative;
+}
+
+.main-step-three-confirm::before {
+    filter: blur(2px) opacity(85%) grayscale(80%);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../assets/7.jpg);
+    background-size: cover;
+    z-index: -1;
 }
 
 .main-step-three-confirm button {
-    margin-top: 1em;
+    margin-top: 4em;
+    font-size: 1em;
 }
 
-.main-step-three-thanks {
-    background-color: var(--primary-color);
-    padding: 2em;
+.main-step-three-confirm p {
     text-align: center;
     font-size: 1.2em;
     color: #fff;
+    line-height: 1.5em;
 }

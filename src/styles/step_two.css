@@ -39,6 +39,7 @@
     height: 45vw;
     background: url('../assets/2.jpg');
     background-size: cover;
+    background-position-x: center;
 }
 
 .image-3 {
@@ -53,6 +54,7 @@
     height: 45vw;
     background: url('../assets/4.jpg');
     background-size: cover;
+    background-position-x: center;
 }
 
 .image-5 {
@@ -60,6 +62,7 @@
     height: 45vw;
     background: url('../assets/5.jpg');
     background-size: cover;
+    background-position-x: center;
 }
 
 .image-6 {
@@ -67,4 +70,5 @@
     height: 45vw;
     background: url('../assets/6.jpg');
     background-size: cover;
+    background-position-x: center;
 }
