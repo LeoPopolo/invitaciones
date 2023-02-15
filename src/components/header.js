@@ -50,29 +50,29 @@ const Header = () => {
 
   return (
     <header className='header'>
-        <div className='blur'>
-            <h1 className='title'>Leo y Jime</h1>
-            <h2 className='subtitle'>¡Nos casamos!</h2>
+      <div className='titles'>
+        <h1 className='title'>Leo y Jime</h1>
+        <h2 className='subtitle'>¡Nos casamos!</h2>
+      </div>
 
-            <div className='counter'>
-              <div>
-                <span className='number'>{days}</span>
-                <span className='description'>{ days === '01' ? 'día' : 'días'}</span>
-              </div>
-              <div>
-                <span className='number'>{hours}</span> 
-                <span className='description'>{ hours === '01' ? 'hora' : 'horas' }</span>
-              </div>
-              <div>
-                <span className='number'>{minutes}</span>       
-                <span className='description'>{ minutes === '01' ? 'minuto' : 'minutos' }</span>
-              </div>
-              <div>
-                <span className='number'>{seconds}</span>
-                <span className='description'>{ seconds === '01' ? 'segundo' : 'segundos' }</span>
-              </div>
-            </div>
+      <div className='counter'>
+        <div>
+          <span className='number'>{days}</span>
+          <span className='description'>{ days === '01' ? 'día' : 'días'}</span>
         </div>
+        <div>
+          <span className='number'>{hours}</span> 
+          <span className='description'>{ hours === '01' ? 'hora' : 'horas' }</span>
+        </div>
+        <div>
+          <span className='number'>{minutes}</span>       
+          <span className='description'>{ minutes === '01' ? 'minuto' : 'minutos' }</span>
+        </div>
+        <div>
+          <span className='number'>{seconds}</span>
+          <span className='description'>{ seconds === '01' ? 'segundo' : 'segundos' }</span>
+        </div>
+      </div>
     </header>
   )
 }

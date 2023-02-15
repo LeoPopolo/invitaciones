@@ -12,11 +12,20 @@
 
 .modal-background .modal {
     width: 95%;
-    background-color: #fff;
+    background-color: #eee;
     box-shadow: 1px 1px 10px 1px #35353535;
     height: 95vh;
     padding: 1em;
     border-radius: 5px;
+    position: relative;
+}
+
+.modal-background .modal .close {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 .modal-background .modal h3 {
@@ -24,9 +33,23 @@
     font-size: 1.5em;
     color: var(--primary-color);
     margin-bottom: 1em;
+    margin-top: 2em;
 }
 
 .modal-background .modal p {
     padding-block: 5px;
     font-size: 1.1em;
+}
+
+.modal-background .modal .btn-copy {
+    margin: 1em auto;
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+}
+
+.modal-background .modal .btn-copy path {
+    stroke: #eee;
 }

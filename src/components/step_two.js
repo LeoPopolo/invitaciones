@@ -13,34 +13,9 @@ const StepTwo = () => {
         <div className='image image-4'></div>
         <div className='image image-5'></div>
         <div className='image image-6'></div>
-        
-        {/* confirmar invitacion */}
-
-        {/* 
-          -licuadora
-          -juego de mesas y sillas
-          -mesitas de luz
-          -juego de sábanas y acolchados
-          -toallones
-          -cubiertos
-          -juego de platos
-          -batidora/mixer
-          -plancha 
-          -exprimidor
-          -almohadas
-          -tazas
-          -sartén
-          -espejo
-          -cucharon y piezas de acero
-          -mesa ratona
-          -lavarropas
-          -set de baño
-          -utensillos de cocina
-        */}
-        
       </div>
     </main>
   )
 }
 
-export default StepTwo
+export default StepTwo;
