@@ -75,6 +75,7 @@
     margin: 0 auto;
     border: 2px solid var(--primary-color);
     position: relative;
+    z-index: 5;
 }
 
 .main-step-three-confirm::before {
@@ -87,7 +88,7 @@
     bottom: 0;
     background-image: url(../assets/7.jpg);
     background-size: cover;
-    z-index: -1;
+    z-index: -10;
 }
 
 .main-step-three-confirm button {
@@ -100,4 +101,61 @@
     font-size: 1.2em;
     color: #eee;
     line-height: 1.5em;
+}
+
+.main-step-three-selected-gift {
+    background-color: var(--primary-color);
+    padding: 2em;
+}
+
+.main-step-three-selected-gift h3 {
+    text-align: center;
+    color: #eee;
+    margin-bottom: 1em;
+}
+
+.main-step-three-selected-gift .gift {
+    color: #eee;
+    font-size: 1.2em;
+}
+
+.main-step-three-selected-gift .gift-image {
+    width: 25%;
+}
+
+.main-step-three-selected-gift .gift p {
+    margin-top: 1em;
+}
+
+.main-step-three-selected-gift .actions {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.main-step-three-selected-gift .actions .delete, .main-step-three-selected-gift .actions .edit {
+    color: #eee;
+    font-size: 2em;
+    margin-inline: 10px;
+}
+
+.main-step-three-details {
+    background-color: #eee;
+    padding: 2em;
+}
+
+.main-step-three-details h3 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.main-step-three-details input {
+    text-align: center;
+    padding: .5em 1em;
+    border-radius: 100px;
+    border: 1px solid var(--primary-color);
+    font-size: 1em;
+    outline-color: var(--primary-color);
+    margin: 1em auto 0;
+    display: block;
 }

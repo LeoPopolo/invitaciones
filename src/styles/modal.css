@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 50;
 }
 
 .modal-background .modal {
@@ -18,6 +19,7 @@
     padding: 1em;
     border-radius: 5px;
     position: relative;
+    z-index: 99;
 }
 
 .modal-background .modal .close {
@@ -52,4 +54,14 @@
 
 .modal-background .modal .btn-copy path {
     stroke: #eee;
+}
+
+.modal-background .modal .modal-gifts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    row-gap: 1em;
+    max-height: 40vh;
+    overflow-y: auto;
+    padding-inline: 2em;
 }
