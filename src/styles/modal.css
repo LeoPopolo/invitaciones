@@ -35,7 +35,7 @@
     font-size: 1.5em;
     color: var(--primary-color);
     margin-bottom: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .modal-background .modal p {
@@ -64,4 +64,10 @@
     max-height: 40vh;
     overflow-y: auto;
     padding-inline: 2em;
+}
+
+@media screen and (max-height: 750px) {
+    .modal-background .modal .modal-gifts {
+        max-height: 30vh;
+    }
 }

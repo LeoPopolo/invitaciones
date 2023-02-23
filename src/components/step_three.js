@@ -17,7 +17,7 @@ const StepThree = () => {
   }
 
   const sendConfirm = () => {
-    console.log("hola");
+    
     let text = '¡Confirmo la invitación!';
  
     if (foodRestriction)
