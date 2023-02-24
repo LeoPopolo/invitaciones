@@ -16,11 +16,15 @@ const StepOne = () => {
   return (
     <main className='main-step-one'>
       <img className='hojas-1' src={safePath(`./hojas.png`)} alt=''/>
-      <div>
-        <h2>Civil</h2>
-        <p>El civil se realizará el día 21 de abril a las 10:30hs en el registro civil de quilmes</p>
-        <button className='primary-button' onClick={gotoCivil}>Cómo llegar</button>
-      </div>
+      
+      {
+        localStorage.getItem('sc') === 't' &&
+        <div>
+          <h2>Civil</h2>
+          <p>El civil se realizará el día 21 de abril a las 10:30hs en el registro civil de quilmes</p>
+          <button className='primary-button' onClick={gotoCivil}>Cómo llegar</button>
+        </div>
+      }
 
       <div>
         <h2>Ceremonia y fiesta</h2>

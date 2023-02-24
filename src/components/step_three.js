@@ -9,7 +9,6 @@ const StepThree = () => {
   
   const [isOpen, setIsOpen] = React.useState(false)
   const [selectedGift, setSelectedGift] = React.useState(null);
-  const [foodRestriction, setFoodRestriction] = React.useState(null);
   const safePath = require.context("../assets/", true);
 
   const toggleModal = () => {
@@ -19,18 +18,16 @@ const StepThree = () => {
   const sendConfirm = () => {
     
     let text = '¡Confirmo la invitación!';
+    const number = localStorage.getItem('tel');
  
-    if (foodRestriction)
-      text += ` Mi restricción alimentaria es: ${foodRestriction}. `;
-    
     if (selectedGift)
-      text += `Les quiero regalar: ${selectedGift.name}.`;
+      text += ` Mi regalo es: ${selectedGift.name}.`;
 
-    window.location.href = 'https://wa.me/+5491122728456?text=' + text;
+    window.location.href = `https://wa.me/${number}?text=${text}`;
   }
 
   const gotoPlaylist = () => {
-    window.location.href = 'https://open.spotify.com/playlist/4LEY9tANEHErwID0RXSEz4?si=ba12c5650cf0409b';
+    window.location.href = 'https://open.spotify.com/playlist/4LEY9tANEHErwID0RXSEz4?si=nA8zwIh3T9GvgCiQvO8FeQ&pt=b549926cbbddb9b332182fb0eab614bf';
   }
 
   const getGift = (item) => {
@@ -40,10 +37,6 @@ const StepThree = () => {
 
   const deleteSelectedGift = () => {
     setSelectedGift(null);
-  }
-
-  const updateFoodRestriction = (event) => {
-    setFoodRestriction(event.target.value);
   }
 
   return (
@@ -70,11 +63,6 @@ const StepThree = () => {
           <img src={safePath('./gift.png')} alt='' />
           <p>Si deseas hacernos un regalo</p>
           <button className='secondary-button' onClick={toggleModal}>Ver lista</button>
-        </div>
-        <div className='main-step-three-details'>
-          <h3>¿Tenés alguna restricción alimenticia?</h3>
-          <h3>Dejánoslo saber acá abajo</h3>
-          <input type='text' placeholder='Escribí tu respuesta...' onChange={updateFoodRestriction}/>
         </div>
         {
           selectedGift && 
