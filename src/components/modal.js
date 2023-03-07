@@ -20,7 +20,6 @@ const Modal = ({toggleModal, getGift}) => {
         { name: 'Licuadora', path: './LICUADORA.jpeg' },
         { name: 'Mesitas de luz', path: './MESITAS DE LUZ.webp' },
         { name: 'Mesa y sillas', path: './MESA Y SILLAS.jpeg' },
-        { name: 'Minipimer', path: './MINIPIMER.jpeg' },
         { name: 'Ollas', path: './OLLAS.webp' },
         { name: 'Plancha', path: './PLANCHA.webp' },
         { name: 'Sabanas', path: './SABANAS.jpg' },
