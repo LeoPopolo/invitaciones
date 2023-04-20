@@ -11,16 +11,12 @@ const Modal = ({toggleModal, getGift}) => {
 
     const gifts = [
         { name: 'Almohadas', path: './ALMOHADAS.webp' },
-        { name: 'Batidora', path: './BATIDORA.webp' },
         { name: 'Cubiertos', path: './CUBIERTOS.png' },
         { name: 'Cubrecama', path: './CUBRECAMA.jpg' },
-        { name: 'Lavarropas', path: './LAVARROPAS.jpg' },
         { name: 'Mesitas de luz', path: './MESITAS DE LUZ.webp' },
-        { name: 'Mesa y sillas', path: './MESA Y SILLAS.jpeg' },
         { name: 'Sabanas', path: './SABANAS.jpg' },
         { name: 'Sillón', path: './SILLON.jpg' },
         { name: 'Toallones', path: './TOALLONES.jpeg' },
-        { name: 'Vajilla', path: './VAJILLA.webp' },
     ];
 
     const copyToClipboard = () => {
